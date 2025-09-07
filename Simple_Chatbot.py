@@ -1,5 +1,4 @@
 #creating own chatbot
-#reflection(response: 1: pattern 2:respond)
 import nltk
 from nltk.chat.util import Chat, reflections
 
@@ -30,4 +29,5 @@ def start_chatbot():
       print('Chatbot:', response)
 
 #start the chat
+
 start_chatbot()
